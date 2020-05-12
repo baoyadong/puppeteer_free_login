@@ -8,10 +8,8 @@ const app = express();
 const puppeteer = require('puppeteer');
 
 // 预发地址
-const url = 'https://developer.wgine.com/im/'
+const url = 'https://baidu.com'
 
-// iot线上地址
-// const url = 'https://iot.tuya.com/im/'
 
 app.use(cookieParser());
 
